@@ -32,7 +32,7 @@
 		<script type="text/javascript" defer>
 			const regionRadius = 0.25;
 			const circleResolution = 1000;
-			const myData = JSON.parse('{"modules":[{"label":"model","x":0,"y":0,"volatility":1},{"label":"rest","x":1,"y":0,"volatility":1},{"label":"service","x":0.83,"y":0.5,"volatility":1}],"connections":[{"from":"rest (1)","to":"service (0.83)"},{"from":"rest (1)","to":"model (0)"},{"from":"rest (1)","to":"model (0)"},{"from":"rest (1)","to":"model (0)"},{"from":"rest (1)","to":"model (0)"},{"from":"rest (1)","to":"model (0)"},{"from":"service (0.83)","to":"model (0)"},{"from":"service (0.83)","to":"model (0)"},{"from":"service (0.83)","to":"model (0)"},{"from":"service (0.83)","to":"model (0)"},{"from":"service (0.83)","to":"model (0)"}],"cyclicDependencies":[]}');
+			const myData = JSON.parse('{"modules":[{"label":"model","x":0,"y":0,"volatility":1},{"label":"repository","x":0.5,"y":0.5,"volatility":1},{"label":"rest","x":1,"y":0,"volatility":1},{"label":"service","x":0.83,"y":0.5,"volatility":1}],"connections":[{"from":"repository (0.5)","to":"model (0)"},{"from":"repository (0.5)","to":"model (0)"},{"from":"rest (1)","to":"service (0.83)"},{"from":"rest (1)","to":"model (0)"},{"from":"rest (1)","to":"model (0)"},{"from":"rest (1)","to":"model (0)"},{"from":"rest (1)","to":"model (0)"},{"from":"rest (1)","to":"model (0)"},{"from":"service (0.83)","to":"model (0)"},{"from":"service (0.83)","to":"model (0)"},{"from":"service (0.83)","to":"model (0)"},{"from":"service (0.83)","to":"repository (0.5)"},{"from":"service (0.83)","to":"repository (0.5)"}],"cyclicDependencies":[]}');
 			const data = {
 				datasets: [{
 					label: "Ideal",
