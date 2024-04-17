@@ -1,4 +1,4 @@
-package com.mwalker.coupling.rest.dto;
+package com.mwalker.coupling.model;
 
 public enum PaymentState {
     FULFILLED,

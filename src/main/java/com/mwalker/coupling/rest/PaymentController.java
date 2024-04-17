@@ -16,6 +16,9 @@ public class PaymentController {
     @PostMapping("")
     public PaymentResponseDto ProcessPayment(PaymentRequestDto payment) {
 
-        return paymentService.processPayment(payment);
+        return
+                PaymentResponseDto.fromPaymentResponse(
+                        paymentService.processPayment(payment.toPaymentRequest())
+                );
     }
 }
