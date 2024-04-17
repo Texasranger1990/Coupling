@@ -9,10 +9,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class PaymentServiceImpl implements PaymentService {
     @Override
-    public PaymentResponse processPayment(PaymentRequest paymentRequest) {
-        PaymentResponse response = new PaymentResponse();
-        response.setPaymentId(paymentRequest.getPaymentId());
-        response.setPaymentState(PaymentState.FULFILLED);
-        return response;
+    public Payment processPayment(Payment payment) {
+        payment.setPaymentState(PaymentState.FULFILLED);
+        return payment;
     }
 }
