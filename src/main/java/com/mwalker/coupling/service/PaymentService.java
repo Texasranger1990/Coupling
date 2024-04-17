@@ -1,8 +1,7 @@
 package com.mwalker.coupling.service;
 
-import com.mwalker.coupling.model.PaymentRequest;
-import com.mwalker.coupling.model.PaymentResponse;
+import com.mwalker.coupling.model.Payment;
 
 public interface PaymentService {
-    public PaymentResponse processPayment(PaymentRequest paymentRequest);
+    Payment processPayment(Payment paymentRequest);
 }

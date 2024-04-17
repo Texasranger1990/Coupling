@@ -17,8 +17,8 @@ public class PaymentController {
     public PaymentResponseDto ProcessPayment(PaymentRequestDto payment) {
 
         return
-                PaymentResponseDto.fromPaymentResponse(
-                        paymentService.processPayment(payment.toPaymentRequest())
+                PaymentResponseDto.fromPayment(
+                        paymentService.processPayment(payment.toPayment())
                 );
     }
 }

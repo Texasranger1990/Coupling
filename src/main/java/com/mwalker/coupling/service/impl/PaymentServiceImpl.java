@@ -1,9 +1,9 @@
 package com.mwalker.coupling.service.impl;
 
-import com.mwalker.coupling.model.PaymentRequest;
-import com.mwalker.coupling.model.PaymentResponse;
+import com.mwalker.coupling.model.Payment;
 import com.mwalker.coupling.model.PaymentState;
 import com.mwalker.coupling.service.PaymentService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
