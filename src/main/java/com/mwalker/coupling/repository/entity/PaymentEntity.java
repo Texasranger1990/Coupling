@@ -1,5 +1,6 @@
 package com.mwalker.coupling.repository.entity;
 
+import com.mwalker.coupling.model.Payment;
 import com.mwalker.coupling.model.PaymentMethod;
 import com.mwalker.coupling.model.PaymentState;
 import jakarta.persistence.Entity;
@@ -15,4 +16,12 @@ public class PaymentEntity {
     private PaymentState paymentState;
 
     private PaymentMethod paymentMethod;
+
+    public Payment toPayment() {
+        Payment result = new Payment();
+        result.setPaymentState(this.paymentState);
+        result.setPaymentId(this.id);
+        result.setPaymentMethod(this.paymentMethod);
+        return result;
+    }
 }
