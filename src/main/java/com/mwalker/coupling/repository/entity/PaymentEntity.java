@@ -11,7 +11,7 @@ import lombok.Data;
 @Entity
 public class PaymentEntity {
     @Id
-    private Long id;
+    private Long paymentId;
 
     private PaymentState paymentState;
 
@@ -20,7 +20,7 @@ public class PaymentEntity {
     public Payment toPayment() {
         Payment result = new Payment();
         result.setPaymentState(this.paymentState);
-        result.setPaymentId(this.id);
+        result.setPaymentId(this.paymentId);
         result.setPaymentMethod(this.paymentMethod);
         return result;
     }
