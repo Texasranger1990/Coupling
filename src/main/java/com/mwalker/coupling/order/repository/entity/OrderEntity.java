@@ -1,7 +1,7 @@
-package com.mwalker.coupling.repository.entity;
+package com.mwalker.coupling.order.repository.entity;
 
-import com.mwalker.coupling.model.Order;
-import com.mwalker.coupling.model.OrderState;
+import com.mwalker.coupling.order.model.Order;
+import com.mwalker.coupling.order.model.OrderState;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;

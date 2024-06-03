@@ -1,6 +1,6 @@
-package com.mwalker.coupling.service.Order;
+package com.mwalker.coupling.order.service;
 
-import com.mwalker.coupling.model.Order;
+import com.mwalker.coupling.order.model.Order;
 
 public interface OrderConnector {
     boolean doesOrderExist(long orderId);

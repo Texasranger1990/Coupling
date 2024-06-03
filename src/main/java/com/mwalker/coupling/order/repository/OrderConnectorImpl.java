@@ -1,9 +1,9 @@
-package com.mwalker.coupling.repository;
+package com.mwalker.coupling.order.repository;
 
 
-import com.mwalker.coupling.model.Order;
-import com.mwalker.coupling.repository.entity.OrderEntity;
-import com.mwalker.coupling.service.Order.OrderConnector;
+import com.mwalker.coupling.order.model.Order;
+import com.mwalker.coupling.order.repository.entity.OrderEntity;
+import com.mwalker.coupling.order.service.OrderConnector;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

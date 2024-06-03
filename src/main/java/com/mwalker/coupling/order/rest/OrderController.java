@@ -1,8 +1,8 @@
-package com.mwalker.coupling.rest;
+package com.mwalker.coupling.order.rest;
 
-import com.mwalker.coupling.rest.dto.OrderRequestDto;
-import com.mwalker.coupling.rest.dto.OrderResponseDto;
-import com.mwalker.coupling.service.Order.OrderService;
+import com.mwalker.coupling.order.rest.dto.OrderRequestDto;
+import com.mwalker.coupling.order.rest.dto.OrderResponseDto;
+import com.mwalker.coupling.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;

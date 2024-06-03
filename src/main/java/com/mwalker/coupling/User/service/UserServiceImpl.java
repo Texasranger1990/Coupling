@@ -1,14 +1,14 @@
-package com.mwalker.coupling.service.User;
+package com.mwalker.coupling.User.service;
 
-import com.mwalker.coupling.model.User;
-import com.mwalker.coupling.service.Order.UserService;
+import com.mwalker.coupling.User.model.User;
+import com.mwalker.coupling.order.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class UserServiceImpl implements UserService, com.mwalker.coupling.service.User.UserService {
+public class UserServiceImpl implements UserService, com.mwalker.coupling.User.service.UserService {
     @Override
     public boolean canOrder(long userId) {
         /*

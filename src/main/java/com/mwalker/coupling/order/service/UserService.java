@@ -1,4 +1,4 @@
-package com.mwalker.coupling.service.Order;
+package com.mwalker.coupling.order.service;
 
 public interface UserService {
     boolean canOrder(long userId);

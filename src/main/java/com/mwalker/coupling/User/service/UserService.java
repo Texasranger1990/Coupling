@@ -1,6 +1,6 @@
-package com.mwalker.coupling.service.User;
+package com.mwalker.coupling.User.service;
 
-import com.mwalker.coupling.model.User;
+import com.mwalker.coupling.User.model.User;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.mwalker.coupling.model;
+package com.mwalker.coupling.order.model;
 
 public enum OrderState {
     OPEN,

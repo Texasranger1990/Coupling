@@ -1,4 +1,4 @@
-package com.mwalker.coupling.model.exceptions;
+package com.mwalker.coupling.order.model.exceptions;
 
 public class OrderAlreadyExistsException extends RuntimeException {
     public OrderAlreadyExistsException(long orderId) {

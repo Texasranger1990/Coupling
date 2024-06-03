@@ -1,10 +1,11 @@
-package com.mwalker.coupling.rest.dto;
+package com.mwalker.coupling.order.rest.dto;
 
-import com.mwalker.coupling.model.Order;
+import com.mwalker.coupling.order.model.Order;
 import lombok.Data;
 
 @Data
-public class OrderRequestDto {
+public
+class OrderRequestDto {
     private long orderId;
     private long userId;
 

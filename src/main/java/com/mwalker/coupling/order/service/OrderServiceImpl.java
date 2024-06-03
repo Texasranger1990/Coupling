@@ -1,8 +1,8 @@
-package com.mwalker.coupling.service.Order;
+package com.mwalker.coupling.order.service;
 
-import com.mwalker.coupling.model.Order;
-import com.mwalker.coupling.model.exceptions.OrderAlreadyExistsException;
-import com.mwalker.coupling.model.exceptions.UserIsNotAllowedToOrderException;
+import com.mwalker.coupling.order.model.Order;
+import com.mwalker.coupling.order.model.exceptions.OrderAlreadyExistsException;
+import com.mwalker.coupling.order.model.exceptions.UserIsNotAllowedToOrderException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

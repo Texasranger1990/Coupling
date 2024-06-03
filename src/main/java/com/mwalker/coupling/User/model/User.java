@@ -1,4 +1,4 @@
-package com.mwalker.coupling.model;
+package com.mwalker.coupling.User.model;
 
 import lombok.Data;
 

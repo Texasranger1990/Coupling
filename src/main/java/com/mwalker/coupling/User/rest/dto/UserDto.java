@@ -1,6 +1,6 @@
-package com.mwalker.coupling.rest.dto;
+package com.mwalker.coupling.User.rest.dto;
 
-import com.mwalker.coupling.model.User;
+import com.mwalker.coupling.User.model.User;
 import lombok.Data;
 
 @Data
