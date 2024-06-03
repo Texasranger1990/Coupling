@@ -1,8 +1,7 @@
 package com.mwalker.coupling.service;
 
-import com.mwalker.coupling.rest.dto.OrderRequestDto;
-import com.mwalker.coupling.rest.dto.OrderResponseDto;
+import com.mwalker.coupling.model.Order;
 
 public interface OrderService {
-    OrderResponseDto placeOrder(OrderRequestDto order);
+    Order placeOrder(Order order);
 }

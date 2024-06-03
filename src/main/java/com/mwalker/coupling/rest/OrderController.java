@@ -16,6 +16,10 @@ public class OrderController {
     @PostMapping("")
     public OrderResponseDto placeOrder(OrderRequestDto order) {
 
-        return orderService.placeOrder(order);
+        return OrderResponseDto.fromOrder(
+                orderService.placeOrder(
+                        order.toOrder()
+                )
+        );
     }
 }
