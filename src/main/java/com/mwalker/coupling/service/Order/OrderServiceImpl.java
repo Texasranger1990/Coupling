@@ -3,7 +3,6 @@ package com.mwalker.coupling.service.Order;
 import com.mwalker.coupling.model.Order;
 import com.mwalker.coupling.model.exceptions.OrderAlreadyExistsException;
 import com.mwalker.coupling.model.exceptions.UserIsNotAllowedToOrderException;
-import com.mwalker.coupling.service.User.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
