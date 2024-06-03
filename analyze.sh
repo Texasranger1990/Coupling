@@ -1,2 +1,2 @@
 #!/bin/bash
-node ../ModuleAnalyzer/ModuleAnalyzer.js . --i
+node ../ModuleAnalyzer/ModuleAnalyzer.js . --i --d=2

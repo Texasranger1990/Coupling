@@ -13,5 +13,5 @@ public class OrderRequestDto {
         order.setOrderId(this.orderId);
         order.setUserId(this.userId);
         return order;
-    };
+    }
 }
