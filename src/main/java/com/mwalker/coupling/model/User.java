@@ -1,5 +1,8 @@
 package com.mwalker.coupling.model;
 
+import lombok.Data;
+
+@Data
 public class User {
-    public String userName;
+    private String userName;
 }
