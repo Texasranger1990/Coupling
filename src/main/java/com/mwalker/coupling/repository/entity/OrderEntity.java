@@ -12,11 +12,13 @@ public class OrderEntity {
     @Id
     private long orderId;
     private OrderState orderState;
+    private long userId;
 
     public Order toOrder() {
         Order result = new Order();
         result.setOrderId(this.orderId);
         result.setOrderState(this.orderState);
+        result.setUserId(this.userId);
 
         return result;
     }
@@ -25,6 +27,7 @@ public class OrderEntity {
         OrderEntity result = new OrderEntity();
         result.setOrderState(order.getOrderState());
         result.setOrderId(order.getOrderId());
+        result.setUserId(order.getUserId());
 
         return result;
     }
