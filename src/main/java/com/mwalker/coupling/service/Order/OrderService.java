@@ -1,4 +1,4 @@
-package com.mwalker.coupling.service;
+package com.mwalker.coupling.service.Order;
 
 import com.mwalker.coupling.model.Order;
 
