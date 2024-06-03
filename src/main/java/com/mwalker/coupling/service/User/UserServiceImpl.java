@@ -1,10 +1,14 @@
 package com.mwalker.coupling.service.User;
 
+import com.mwalker.coupling.model.User;
 import com.mwalker.coupling.service.Order.UserService;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Service
-public class UserServiceImpl implements UserService {
+public class UserServiceImpl implements UserService, com.mwalker.coupling.service.User.UserService {
     @Override
     public boolean canOrder(long userId) {
         /*
@@ -1132,5 +1136,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public boolean isPremiumUser(long userId) {
         return canOrder(userId) && userId % 5 == 0;
+    }
+
+    @Override
+    public List<User> getAllUsers() {
+        return new ArrayList<>();
     }
 }
